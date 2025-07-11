@@ -63,6 +63,6 @@
     "provenance": true
   },
   "devDependencies": {
-    "changesets": "^1.0.2"
+    "@changesets/cli": "^2.27.12"
   }
 }
