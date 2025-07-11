@@ -11,6 +11,10 @@ importers:
       mcp-handler:
         specifier: ^1.0.0
         version: 1.0.0(@modelcontextprotocol/sdk@1.15.1)(next@13.0.0)
+    devDependencies:
+      changesets:
+        specifier: ^1.0.2
+        version: 1.0.2
 
 packages:
 
@@ -160,6 +164,9 @@ packages:
   chalk@5.4.1:
     resolution: {integrity: sha512-zgVZuo2WcZgfUEmsn6eO3kINexW8RAE4maiQ8QNs8CtpPCSyMiYsULR3HQYkm3w8FIA3SberyMJMSldGsW+U3w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+
+  changesets@1.0.2:
+    resolution: {integrity: sha512-lnXvvqJEcK0z/6RtwKNLbejazl+Hxd1bocMcNgfLHWb4rGxuqkO/LdeGNzwIx3jHj+fNWZ6AGgK5AqNBwva4Xg==}
 
   client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
@@ -693,6 +700,8 @@ snapshots:
     optional: true
 
   chalk@5.4.1: {}
+
+  changesets@1.0.2: {}
 
   client-only@0.0.1:
     optional: true
