@@ -1,5 +1,16 @@
 # @vercel/mcp-adapter
 
+## 1.0.0
+
+### Major Changes
+
+- 9e2346f: Freeze @vercel/mcp-adapter in favor of mcp-handler
+
+### Minor Changes
+
+- 488dfe4: Refactor packaging and make withMcpAuth stable
+- 02df830: Add RFC 9728 OAuth Protected Resource Metadata handler
+
 ## 0.11.2
 
 ### Patch Changes
