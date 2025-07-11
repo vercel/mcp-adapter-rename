@@ -63,6 +63,23 @@
     "provenance": true
   },
   "devDependencies": {
-    "@changesets/cli": "^2.27.12"
+    "@changesets/cli": "^2.27.12",
+    "@types/node": "^22.15.8",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^3.2.1",
+    "zod": "^3.25.50"
+  },
+  "peerDependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "next": ">=13.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@modelcontextprotocol/sdk": {
+      "optional": false
+    },
+    "next": {
+      "optional": true
+    }
   }
 }
