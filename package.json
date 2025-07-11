@@ -55,9 +55,11 @@
   "author": "Vercel",
   "license": "Apache-2.0",
   "dependencies": {
-    "chalk": "^5.3.0",
-    "commander": "^11.1.0",
-    "redis": "^4.6.0"
+    "mcp-handler": "^1.0.0"
+  },
+  "packageManager": "pnpm@9.4.0",
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.12",
@@ -78,10 +80,5 @@
     "next": {
       "optional": true
     }
-  },
-  "packageManager": "pnpm@9.4.0",
-  "publishConfig": {
-    "access": "public",
-    "provenance": true
   }
 }
